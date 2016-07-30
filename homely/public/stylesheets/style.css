@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+#donate{
+    box-shadow: 0px 0px 2px;
+    padding:20px;
+}
