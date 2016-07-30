@@ -2,20 +2,22 @@
 
 <head>
   <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.min.js" ></script>
 </head>
 <?php
     include_once('db/db_con.php');
 ?>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav id="header" class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <ul>
-        <li><a>Home </a> </li>  
-        <li><a> </a> </li>
-        <li><a> </a> </li>
-        <li><a> </a> </li>
-        <li><a>About Us </a> </li>
+        <li id="logo"><img id="logo" src="images/logo.png" /> </li>  
+        <div id="right_login">
+         <li>Login</li>
+         <li>Reegister</li>
+        </div>
+        <li></li>
     </ul>
   </div>
 </nav>
