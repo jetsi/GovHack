@@ -11,13 +11,26 @@
 <div id="body-w-img">
   <p id="description">
     <img src="/logo.png" height="70px"/>
-    Homely is a cool online tool to source household donation to New Zealand
+    Homely is a tool to source household donation to New Zealand
   </p>
-  <div id="donate">
+  <div id="mapContainer">
+    <div id="floating-panel">
+      <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+      <button onclick="changeGradient()">Change gradient</button>
+      <button onclick="changeRadius()">Change radius</button>
+      <button onclick="changeOpacity()">Change opacity</button>
+    </div>
+    <div id="map"></div>
+    <script src="/js/heatmap.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd4azJfNSN3Ro5VHCK4X6o4TbxyXel9CQ&libraries=visualization&callback=initMap">
+    </script>
+  </div>
+  <!-- <div id="donate">
     <a href="#" class='button -donate center'>Donate Items</a>
     <a href="#" class='button -donate center'>Donate Money</a>
-  </div>
-  <div id="bgimg">
+  </div> -->
+  <!-- <div id="bgimg">
     <img src="/img/bkgd.jpg" />
-  </div>
+  </div> -->
 </div>
