@@ -103,9 +103,6 @@ section {
   visibility: hidden;
 }
 
-.parallax-container {
-  height: 500px;
-}
 
 .description {
   background-color: rgba(222,235,237,0.7);
