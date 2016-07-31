@@ -1,0 +1,19 @@
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="/ourcss/bootstrap.min.css">
+<link rel="stylesheet" href="/ourcss/style.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.js" charset="utf-8"></script>
+<script src="
+https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+
+<script>
+    $.backstretch(["/img/bkgd.jpg"]);
+</script>
+<!-- <script src="/js/script.js" charset="utf-8"></script> -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd4azJfNSN3Ro5VHCK4X6o4TbxyXel9CQ&libraries=visualization&callback=initMap">
+    </script>
+  
+</div>
