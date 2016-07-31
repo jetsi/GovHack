@@ -1,40 +1,31 @@
 extends layout
 
 block content
-  <form id="donate" class="col-md-4">
-         <div class="form-group">
-    <label for="usr">Name:</label>
-    <input type="text" class="form-control" id="usr">
-  </div>
+  form(id="donate" class="col-md-4")
 
-      <div class="form-group">
-    <label for="usr">Phone:</label>
-    <input type="text" class="form-control" id="usr">
-  </div>
+    div(class="form-group")
+      label(for="usr") Name:
+      input(type="text" class="form-control" id="usr")
 
+    div(class="form-group")
+      label(for="usr" ) Phone:
+      input(type="text" class="form-control" id="usr")
 
-      <div class="form-group">
-    <label for="usr">Item:</label>
-    <input type="text" class="form-control" id="usr">
-  </div>
+    div(class="form-group")
+      label(for="usr") Item:
+      input(type="text" class="form-control" id="usr")
 
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
+    div(class="form-group")
+      label(for="exampleInputEmail1") Email address
+      input(type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email")
+      small(id="emailHelp" class="form-text text-muted") We'll never share your email with anyone else
 
-     <div class="form-group">
-      <label for="exampleInputFile">Image File input</label>
-      <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    div(class="form-group")
+      label(for="exampleInputFile") Image File input
+      input(type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp")
 
-    </div>
+    div(class="form-group")
+      label(for="exampleTextarea") Example textarea
+      textarea(class="form-control" id="exampleTextarea" rows="3")
 
-    <div class="form-group">
-      <label for="exampleTextarea">Example textarea</label>
-      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-    </div>
-
-
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+    button(type="submit" class="btn btn-primary") Submit
