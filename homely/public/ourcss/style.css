@@ -107,9 +107,9 @@ section {
   height: 500px;
 }
 
-#description {
+.description {
   background-color: rgba(222,235,237,0.7);
-  width: 80%;
+  width: 100%;
   padding: 40px 0;
   border: 1px solid #00f;
   margin: 100px auto 0;
@@ -118,17 +118,20 @@ section {
   border-radius: 10px;
 }
 
+#mapexplain {
+  margin-top: 20px;
+  padding: 10px;
+}
+
 #donate {
   height: 80px;
-  width: 320px;
-  margin: 200px auto 0;
+  margin: 2em auto ;
   text-align: center;
 }
 
-#social-container {
-  margin: 0 auto;
-  padding-top: 10px;
-  width: 200px
+.dbuttons {
+  text-align: center;
+  margin-top: 20px;
 }
 
 footer {

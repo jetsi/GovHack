@@ -2,7 +2,7 @@
 *{
     margin:0px;
     padding:0px;
-    
+
 }
 
 
@@ -41,20 +41,20 @@
     margin:auto;
     font-size: 30px;
    color:white;
-    
+
 }
 .navbar-brand p{
    color: white;
     margin-top:10px;
     font-weight: bold;
-   
+
 }
 .map {
     margin-bottom: 20px;
 }
 .describ{
     padding:10px;
-    
+
 }
 .desc{
     font-weight: bold;
@@ -168,5 +168,3 @@
 .social .fa-youtube-play {
     background: #DF192A;
 }
-
-

@@ -2,7 +2,7 @@ var map, heatmap;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 13,
+    zoom: 6,
     center: {lat: -41.046174, lng: 174.169586},
     mapTypeId: 'satellite'
   });
@@ -48,6 +48,6 @@ function changeOpacity() {
 // Heatmap data: 500 Points
 function getPoints() {
   return [
-    new google.maps.LatLng(41.046174, 174.169586),
+    new google.maps.LatLng(-41.046174, 174.169586),
   ];
 }
